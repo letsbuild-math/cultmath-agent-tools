@@ -1,0 +1,57 @@
+{
+  "name": "@cultmath/agent-tools",
+  "version": "0.1.1",
+  "description": "CULT+MATH decision research for AI agents: free sourced research search, plus pay-per-run measurements (SEC filings, regulation, federal spend, search demand, AI-answer visibility) over x402. LangChain and Vercel AI SDK tools.",
+  "type": "module",
+  "exports": {
+    ".": "./src/client.js",
+    "./langchain": "./src/langchain.js",
+    "./ai-sdk": "./src/ai-sdk.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "@langchain/core": ">=0.3.0",
+    "ai": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@langchain/core": {
+      "optional": true
+    },
+    "ai": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "langchain",
+    "vercel-ai-sdk",
+    "ai-sdk",
+    "agent-tools",
+    "mcp",
+    "x402",
+    "decision-intelligence",
+    "market-research",
+    "sec-edgar",
+    "ai-visibility",
+    "agents"
+  ],
+  "homepage": "https://cultmath.com/agent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letsbuild-math/cultmath-agent-tools.git"
+  },
+  "author": "Ipalibo Da-Wariboko, CULT+MATH LLC",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "bugs": {
+    "url": "https://github.com/letsbuild-math/cultmath-agent-tools/issues"
+  }
+}
