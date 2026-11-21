@@ -17,5 +17,7 @@
     "ai-visibility",
     "mcp"
   ],
-  "privacyPolicyUrl": "https://cultmath.com/privacy"
+  "privacyPolicyUrl": "https://cultmath.com/privacy",
+  "documentationUrl": "https://cultmath.com/agent",
+  "termsOfServiceUrl": "https://cultmath.com/terms"
 }
