@@ -2,12 +2,12 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cultmath",
   "owner": { "name": "CULT+MATH", "url": "https://cultmath.com" },
-  "metadata": { "description": "CULT+MATH decision intelligence for Claude: the MCP connector plus a skill for using its evidence well." },
+  "metadata": { "description": "CULT+MATH for Claude: DEOS Open, the free operating system for executive decisions, plus the evidence connector and a skill for using both well." },
   "plugins": [
     {
       "name": "cultmath",
       "source": "./plugins/cultmath",
-      "description": "Evidence for the decisions in front of you: free sourced research and frameworks, and fresh measurements that quote their price first.",
+      "description": "DEOS Open, a free, programmatic decision enablement operating system for executives and their agents: written standards an agent reads and follows. When a step needs evidence: free sourced research and frameworks, and fresh measurements that quote their price first.",
       "category": "research",
       "homepage": "https://cultmath.com/ai"
     }
