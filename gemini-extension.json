@@ -1,0 +1,11 @@
+{
+  "name": "cultmath",
+  "version": "1.0.0",
+  "description": "Evidence for the decisions in front of you: search CULT+MATH's sourced, dated research for free, read decision frameworks, and run fresh measurements (SEC filings, trade, regulation, search and AI-answer demand) that quote their price first.",
+  "mcpServers": {
+    "cultmath": {
+      "httpUrl": "https://cultmath.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

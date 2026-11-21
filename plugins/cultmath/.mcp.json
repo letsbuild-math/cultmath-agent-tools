@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cultmath": {
+      "type": "http",
+      "url": "https://cultmath.com/mcp"
+    }
+  }
+}
