@@ -1,0 +1,10 @@
+{
+  "name": "cultmath",
+  "version": "1.0.0",
+  "description": "CULT+MATH decision intelligence: search sourced, dated research for free, read decision frameworks, and run fresh measurements that quote their price before anything is paid.",
+  "author": { "name": "CULT+MATH", "url": "https://cultmath.com" },
+  "homepage": "https://cultmath.com/ai",
+  "repository": "https://github.com/letsbuild-math/cultmath-agent-tools",
+  "license": "MIT",
+  "keywords": ["decision-intelligence", "research", "market-research", "sec-filings", "ai-visibility", "mcp"]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cultmath",
+  "owner": { "name": "CULT+MATH", "url": "https://cultmath.com" },
+  "metadata": { "description": "CULT+MATH decision intelligence for Claude: the MCP connector plus a skill for using its evidence well." },
+  "plugins": [
+    {
+      "name": "cultmath",
+      "source": "./plugins/cultmath",
+      "description": "Evidence for the decisions in front of you: free sourced research and frameworks, and fresh measurements that quote their price first.",
+      "category": "research",
+      "homepage": "https://cultmath.com/ai"
+    }
+  ]
+}

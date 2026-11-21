@@ -11,6 +11,27 @@
 
 Every run checks its own controls first. **A run that fails them is refused and never charged.** Every result carries a run id, a date and a citation line.
 
+## Use it in your AI tool
+
+One server, every client: **`https://cultmath.com/mcp`** (streamable HTTP, no key, no account). Search, documents, frameworks and DEOS Open standards are free. Each `run_*` tool returns its price first and charges nothing until the buyer pays.
+
+| Client | How |
+|---|---|
+| **Claude Code** | `/plugin marketplace add letsbuild-math/cultmath-agent-tools` then `/plugin install cultmath@cultmath` (adds the connector and a skill for using it) — or `claude mcp add --transport http cultmath https://cultmath.com/mcp` |
+| **Claude** (web, desktop, mobile) | Settings → Connectors → **Add custom connector** → `https://cultmath.com/mcp` |
+| **ChatGPT** | Apps → search **CULT+MATH Research** |
+| **Gemini CLI** | `gemini extensions install https://github.com/letsbuild-math/cultmath-agent-tools` |
+| **Gemini app** | Settings → Connected Apps → **Add a custom app** → `https://cultmath.com/mcp` (Google limits custom apps to eligible personal accounts) |
+| **Gemini Enterprise** | An admin adds `https://cultmath.com/mcp` as a custom MCP server |
+| **Meta Muse** | Ask Muse: *"Connect a custom MCP server at https://cultmath.com/mcp"* |
+| **Microsoft Copilot Studio** | Agent → Tools → Add a tool → **Model Context Protocol** → server URL `https://cultmath.com/mcp`, authentication None |
+| **GitHub Copilot in VS Code** | [Install in VS Code](https://vscode.dev/redirect/mcp/install?name=cultmath&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fcultmath.com%2Fmcp%22%7D) — or add `{"servers": {"cultmath": {"type": "http", "url": "https://cultmath.com/mcp"}}}` to `.vscode/mcp.json` |
+| **Cursor** | [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=cultmath&config=eyJ1cmwiOiJodHRwczovL2N1bHRtYXRoLmNvbS9tY3AifQ==) — or add `{"mcpServers": {"cultmath": {"url": "https://cultmath.com/mcp"}}}` to `~/.cursor/mcp.json` |
+| **Any other MCP client** | Point it at `https://cultmath.com/mcp` |
+| **LangChain / Vercel AI SDK** | `npm install @cultmath/agent-tools` (below) |
+
+Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=cultmath) as `com.cultmath/decision-briefs`. Agent guide: [cultmath.com/agent](https://cultmath.com/agent).
+
 ## Install
 
 ```bash
