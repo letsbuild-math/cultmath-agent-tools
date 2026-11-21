@@ -13,7 +13,7 @@ Every run checks its own controls first. **A run that fails them is refused and 
 
 ## Use it in your AI tool
 
-One server, every client: **`https://cultmath.com/mcp`** (streamable HTTP, no key, no account). Search, documents, frameworks and DEOS Open standards are free. Each `run_*` tool returns its price first and charges nothing until the buyer pays.
+One server, every client: **`https://cultmath.com/mcp`** (streamable HTTP, no key, no account). It leads with **DEOS Open**, a free, programmatic decision enablement operating system for executives and their agents: `list_standards` and `get_standard` return any standard in full for an agent to follow. Search, documents, frameworks and DEOS Open standards are free. Each `run_*` tool returns its price first and charges nothing until the buyer pays.
 
 | Client | How |
 |---|---|
